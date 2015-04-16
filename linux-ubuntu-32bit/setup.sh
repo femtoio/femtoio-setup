@@ -4,8 +4,7 @@ cd ~/Downloads
 
 echo "\n...Dependencies! Making sure the build-essential, and unzip package(s) are installed\n"
 sudo apt-get update
-sudo apt-get install -y build-essential
-sudo apt-get install unzip
+sudo apt-get install -y build-essential unzip gzip
 
 # Uncomment these lines for 64-bit machines
 #echo "\n...Attempting to install (system wide) ia32-libs for 64-bit machines\n"
