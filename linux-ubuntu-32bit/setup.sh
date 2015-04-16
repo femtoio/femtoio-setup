@@ -5,8 +5,9 @@ cd ~/Downloads
 echo "\n...Dependencies! Making sure the build-essentials apt package is installed\n"
 sudo apt-get install build-essentials
 
-echo "\n...Attempting to install (system wide) ia32-libs for 64-bit machines\n"
-sudo apt-get install ia32-libs
+# Uncomment these lines for 64-bit machines
+#echo "\n...Attempting to install (system wide) ia32-libs for 64-bit machines\n"
+#sudo apt-get install ia32-libs
 
 echo "\n...Bare metal gcc toolchain! Attempting to download toolchain: gcc-arm-embedded 4.9-2015-q1-update release from the 4.9 series (launchpad.net)\n"
 wget -o gcc-arm-none-eabi-4_9-2015q1-20150306-linux.tar.bz2 "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2015-q1-update/+download/gcc-arm-none-eabi-4_9-2015q1-20150306-linux.tar.bz2"
@@ -17,7 +18,7 @@ mkdir -p gcc-arm-toolchains
 cd gcc-arm-toolchains
 tar xjf ~/Downloads/gcc-arm-none-eabi-4_9-2015q1-20150306-linux.tar.bz2
 
-echo "\n...Debuging tools! Attempting to download and install OpenOCD v0.9.0-dev-snapshot"
+echo "\n...Debugging tools! Attempting to download and install OpenOCD v0.9.0-dev-snapshot"
 cd ~/Downloads
 wget -o openocd-0.9.0-dev-snapshot.zip "http://sourceforge.net/code-snapshots/git/o/op/openocd/code.git/openocd-code-3e1dfdcb8531ae684537325ad2c94b845d741085.zip"
 unzip openocd-0.9.0-dev-snapshot
