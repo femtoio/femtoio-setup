@@ -1,4 +1,4 @@
-#! /usr/bin/sh
+#! /bin/bash
 echo "\n...Attempting to download and install OpenOCD v0.9.0-dev-snapshot (sourceforge.net)"
 #cd ~/Downloads
 #wget -O openocd-0.9.0-dev-snapshot.zip "http://sourceforge.net/code-snapshots/git/o/op/openocd/code.git/openocd-code-3e1dfdcb8531ae684537325ad2c94b845d741085.zip"

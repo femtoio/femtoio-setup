@@ -1,4 +1,4 @@
-#! /usr/bin/sh
+#! /bin/bash
 "\n\n...Changing into Downloads folder. Here we go...\n"
 cd ~/Downloads
 

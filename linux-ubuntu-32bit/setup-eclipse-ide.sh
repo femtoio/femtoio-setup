@@ -1,4 +1,4 @@
-#! /usr/bin/sh
+#! /bin/bash
 echo "\n...Development IDE! Attempting to download the Eclipse IDE, and unpack it\n"
 sudo apt-get install -y openjdk-7-jdk
 cd ~/Downloads

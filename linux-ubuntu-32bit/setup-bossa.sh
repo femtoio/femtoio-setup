@@ -1,4 +1,4 @@
-#! /usr/bin/sh
+#! /bin/bash
 echo "\n...Firmware tools! Attempting to download FemtoIO fork of BOSSA (arduino branch)"
 cd ~/Downloads
 wget -O femtoio-bossa.zip "https://github.com/femtoio/BOSSA/archive/arduino.zip"

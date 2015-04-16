@@ -1,8 +1,8 @@
-#! /usr/bin/sh
-sh setup-apt-packages.sh
-sh setup-arm-toolchain.sh
-sh setup-openocd.sh
-sh setup-bossa.sh
-sh setup-eclipse-ide.sh
+#! /bin/bash
+./setup-apt-packages.sh
+./setup-arm-toolchain.sh
+./setup-openocd.sh
+./setup-bossa.sh
+./setup-eclipse-ide.sh
 
- echo "\n\n\t * * * Setup scripts completed. * * *\n\n";
+echo "\n\n\t * * * Setup scripts completed. * * *\n\n";
