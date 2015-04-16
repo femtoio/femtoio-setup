@@ -17,7 +17,7 @@ echo "\n...Attempting to unpack the gcc-arm-embedded archive to ~/gcc-arm-toolch
 cd ~/
 mkdir -p gcc-arm-toolchains
 cd gcc-arm-toolchains
-tar xjf ~/Downloads/gcc-arm-none-eabi-4_9-2015q1-20150306-linux.tar.bz2
+tar -vxjf ~/Downloads/gcc-arm-none-eabi-4_9-2015q1-20150306-linux.tar.bz2
 
 echo "\n...Debugging tools! Attempting to download and install OpenOCD v0.9.0-dev-snapshot"
 cd ~/Downloads
@@ -35,7 +35,7 @@ mv femtoio-bossa ~/bossa
 echo "\n...Development IDE! Attempting to download the Eclipse IDE, and unpack it\n"
 cd ~/Downloads
 wget -o eclipse-cpp-luna-SR1a-linux-gtk.tar.gz "http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1a/eclipse-cpp-luna-SR1a-linux-gtk.tar.gz&mirror_id=1065"
-tar zxvf eclipse-cpp-luna-SR1a-linux-gtk.tar.gz
+tar -zxvf eclipse-cpp-luna-SR1a-linux-gtk.tar.gz
 mv eclipse ~/eclipse
 
 # echo "\n\n\n\n********************************************\n"
