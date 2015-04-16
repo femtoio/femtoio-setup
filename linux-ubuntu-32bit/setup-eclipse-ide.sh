@@ -2,8 +2,8 @@
 echo "\n...Development IDE! Attempting to download the Eclipse IDE, and unpack it\n"
 sudo apt-get install -y openjdk-7-jdk
 cd ~/Downloads
-wget -O eclipse-cpp-luna-SR1a-linux-gtk.tar.gz "http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR1a/eclipse-cpp-luna-SR1a-linux-gtk.tar.gz&mirror_id=1065"
-tar -zxvf eclipse-cpp-luna-SR1a-linux-gtk.tar.gz
+wget -O eclipse-cpp-luna-SR2-linux-gtk.tar.gz "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/luna/SR2/eclipse-cpp-luna-SR2-linux-gtk.tar.gz&r=1"
+tar -zxvf eclipse-cpp-luna-SR2-linux-gtk.tar.gz
 mv eclipse ~/eclipse
 
 # echo "\n\n\n\n********************************************\n"
