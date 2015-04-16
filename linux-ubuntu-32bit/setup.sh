@@ -2,8 +2,10 @@
 "\n\n...Changing into Downloads folder. Here we go...\n"
 cd ~/Downloads
 
-echo "\n...Dependencies! Making sure the build-essential apt package is installed\n"
-sudo apt-get install build-essential
+echo "\n...Dependencies! Making sure the build-essential, and unzip package(s) are installed\n"
+sudo apt-get update
+sudo apt-get install -y build-essential
+sudo apt-get install unzip
 
 # Uncomment these lines for 64-bit machines
 #echo "\n...Attempting to install (system wide) ia32-libs for 64-bit machines\n"
